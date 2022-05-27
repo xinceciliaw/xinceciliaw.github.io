@@ -1,5 +1,14 @@
-Here you can say lots of fun things about your site.
+Hello, this is Xin Wang.
 
-Maybe say a some things about yourself.
+Email: xwang239@ncsu.edu
 
-Or maybe what you plan to blog about.
+I'm going to blog about ST558 materials:
+* homeworks
+  + homework 1
+  + homework 2
+* projects
+  + project 1
+  + project 2 
+
+Here is my favorite wallpaper 
+![WechatIMG205](https://user-images.githubusercontent.com/106112346/170603251-511149e4-e566-4d73-88e0-8f838776c1ea.jpeg)
