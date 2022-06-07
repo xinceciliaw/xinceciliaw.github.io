@@ -5,20 +5,31 @@ date: '2022-06-07'
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE,fig.path = "../images/")
+knitr::opts_chunk$set(echo = TRUE, fig.path="../images/")
 ```
 
-```{r}
+```{r, eval=FALSE}
 rmarkdown::render(
-    '/Users/ceciliawang/Desktop/ST558/git/Cecilia/_Rmd/2022-06-07-second-blog-post.Rmd', 
+    '/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_Rmd/2022-06-07-second-blog-post.Rmd', 
     output_format = "github_document",
-    output_dir = "_posts",
+    output_dir = "/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_posts",
     output_options = list(
       html_preview = FALSE
     )
 )
 ```
 
+rmarkdown::render(
+    '2022-06-03-programming-background.Rmd', 
+    output_format = "github_document",
+    output_dir = "../_posts",
+    output_options = list(
+      html_preview = FALSE
+    )
+)
+
+/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_Rmd
+/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_Rmd/
 
 ## Prompt One
 aa
