@@ -19,21 +19,10 @@ rmarkdown::render(
 )
 ```
 
-rmarkdown::render(
-    '2022-06-03-programming-background.Rmd', 
-    output_format = "github_document",
-    output_dir = "../_posts",
-    output_options = list(
-      html_preview = FALSE
-    )
-)
 
-/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_Rmd
-/Users/ceciliawang/Desktop/ST558/git/xinceciliaw.github.io/_Rmd/
+## Experience
 
-## Prompt One
-aa
-Everyone in this course had some programming experience coming in (due to the prerequisites).  What are your thoughts on R vs whatever other software you've used?  What functionality do you like about R?  What parts do you miss about your other language?  Do you consider R a difficult language to learn? (If you knew R prior to the course, describe your experience when first learning it.)
+I used R and SAS a lot, and I used Minitab for a couple of months when I first started learning statistics. I like R because it has better graphics, and markdown is really nice when outut pdf or html. I think R is also more flexible compared to sas. I couldn't think of any parts I miss about sas, maybe the processing time when dealing with large data. I think R is a little bit easier to start with, but you have to work very hard to be good at it. When first learning it, I was confused by the packages and libraries. Sometimes installation is painful, I have to spend a long time googling to figure out what happened. 
 
 ## Example R Markdown output
 
