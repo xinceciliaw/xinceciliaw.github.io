@@ -27,3 +27,26 @@ wait to learn how to create interactive plots by shiny app.
 library(table1)
 table1(~ Sepal.Length + Sepal.Width + Petal.Length +Petal.Width | Species, data = iris)
 ```
+
+## Example of ggplot
+
+``` r
+library(ggplot2)
+```
+
+    ## Warning: package 'ggplot2' was built under R version 3.6.2
+
+    ## Registered S3 methods overwritten by 'tibble':
+    ##   method     from  
+    ##   format.tbl pillar
+    ##   print.tbl  pillar
+
+``` r
+scatter <- ggplot(data=iris, aes(x = Sepal.Length, y = Sepal.Width)) 
+scatter + geom_point(aes(color=Species, shape=Species)) +
+  xlab("Sepal Length") +
+  ylab("Sepal Width") +
+  ggtitle("Sepal Length-Width")
+```
+
+![](../images/unnamed-chunk-4-1.png)<!-- -->

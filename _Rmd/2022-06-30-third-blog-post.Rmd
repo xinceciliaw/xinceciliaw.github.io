@@ -31,5 +31,14 @@ library(table1)
 table1(~ Sepal.Length + Sepal.Width + Petal.Length +Petal.Width | Species, data = iris)
 ```
 
+## Example of ggplot
+```{r}
+library(ggplot2)
 
+scatter <- ggplot(data=iris, aes(x = Sepal.Length, y = Sepal.Width)) 
+scatter + geom_point(aes(color=Species, shape=Species)) +
+  xlab("Sepal Length") +
+  ylab("Sepal Width") +
+  ggtitle("Sepal Length-Width")
+```
 
