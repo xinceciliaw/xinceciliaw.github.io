@@ -32,7 +32,7 @@ table1(~ Sepal.Length + Sepal.Width + Petal.Length +Petal.Width | Species, data 
 ```
 
 ## Example of ggplot
-```{r}
+```{r,warning=FALSE}
 library(ggplot2)
 
 scatter <- ggplot(data=iris, aes(x = Sepal.Length, y = Sepal.Width)) 
