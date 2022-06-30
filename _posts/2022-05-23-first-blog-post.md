@@ -17,4 +17,3 @@ How do you view yourself in relation to these two areas?
 - I think I’m transiting from statistician to data scientist after I get more practice in applying what I’ve learned from all the stats courses.
 
 
-
