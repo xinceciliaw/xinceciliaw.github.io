@@ -24,7 +24,7 @@ miss about sas, maybe the processing time when dealing with large data.
 I think R is a little bit easier to start with, but you have to work
 very hard to be good at it. When first learning it, I was confused by
 the packages and libraries. Sometimes installation is painful, I have to
-spend a long time googling to figure out what happened.
+spend a long time googling to figure out what happened. a
 
 ## Example R Markdown output
 
