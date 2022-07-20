@@ -23,8 +23,7 @@ rmarkdown::render(
 
 ## Method I find most interesting
 
-
-
+I think the method I find the most interesting is the KNN algorithm because it is very simple and efficient. The model representation of KNN is the entire training data set. The trick for this algorithm is how to determine the similarity between data instances. If your attributes have the same scale, the easiest technique is to use Euclidean distance, which you can calculate directly based on the difference between each input variable. Some advantages for KNN is it can be used for classification as well as for regression and new data can be added directly to the data set without having to be re-trained.
 
 ## Fit the Model 
 
@@ -55,4 +54,5 @@ fitknn
 confusionMatrix(data = Test$Species, reference = predict(fitknn, newdata = Test))
 ```
 
+We can see that the accuracy is 88.3% suggesting we may have an reliably accurate model.
 
